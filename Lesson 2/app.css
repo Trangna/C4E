@@ -1,0 +1,61 @@
+/* Write css code in this file*/
+
+/*Select all tag <h1> on web*/
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+/*Select elements with id = "special-heading". id is unique*/
+
+#special-heading {
+    color: orange;
+}
+
+/*Select elements with class = "text-blue". class is not required to be unique*/
+.text-blue {
+    color: blue;
+}
+
+/*Selector Specifility = (0,0,1)*/
+div{
+    color:blueviolet;
+}
+/*Selector Specifility = (0,1,0)*/
+.text-brown {
+    color: brown !important;
+}
+/*Selector Specifility = (1,0,0)*/
+#my-div{
+    color: pink !important;
+}
+
+/* Use * to apply to all elements or all texts. Selector Specifility = (0,0,0)*/
+* {
+    color: chocolate;
+}
+
+/*Attributes to style for text*/
+#test-text {
+    font-size: 12px; 
+    font-style: italic; 
+    text-decoration: line-through;
+    font-family: 'Courier New', Courier, monospace; /*if it can't find the 1st font, then use the 2nd one. By default it will look for available fonts in your OS system*/
+    text-transform: uppercase;
+}
+
+/*Attributes to style a block (selected texts)- khối nội dung.
+Defaul width = 100%. Defaul height = selected texts */
+#my-box {
+    background-color: beige;
+    width: 300px;
+    height: 170px;
+    border: 10px dashed blue;  /*3 attributes to style the border: size, style and color*/
+    border-radius: 10px; /*bo góc*/
+    padding: 20px; /*left alignment. Increase/decrease the box's dimension*/
+    box-sizing: border-box; /*use to fix box width, including the padding*/
+}
+
