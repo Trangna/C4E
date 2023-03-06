@@ -1,0 +1,115 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  color: black;
+}
+
+.container {
+  background: white;
+  height: 50%;
+}
+
+.vertical-menu {
+  margin: 10px 0p 20px 40px;
+  width: 300px;
+  height: 500px;
+  box-sizing: border-box;
+  background-color: lightblue;
+  border-color: lightblue;
+  padding: 10px;
+  position: relative;
+}
+
+.menu {
+  width: 260px;
+  height: 50px;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: lightyellow;
+  border-color: lightyellow;
+  text-align: center;
+  padding: 10px 40px;
+}
+
+p {
+  position: absolute;
+  bottom: 0%;
+  padding: 0% 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.sub-users {
+  width: 260px;
+  height: 200px;
+  background-color: lightgrey;
+  border-color: black;
+  position: absolute;
+  top: 80px;
+  left: 310px;
+  /* display: none; */
+}
+
+#hover-menu:hover + .span {
+  display: block;
+}
+
+.sub-menu {
+  width: 260px;
+  height: 50px;
+  text-align: center;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  border-color: black;
+}
+
+.horizontal-menu {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+  box-sizing: border-box;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  border-color: lightblue;
+  padding: 10px;
+}
+
+.menu-1 {
+  position: relative;
+  width: 260px;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: lightyellow;
+  border-color: black;
+  text-align: center;
+  padding: 10px 40px;
+}
+
+.menu-2 {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 260px;
+  height: 50px;
+  margin-left: 270px;
+  box-sizing: border-box;
+  background-color: lightyellow;
+  border-color: black;
+  text-align: center;
+  padding: 10px 40px;
+}
+
+.menu-3 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 260px;
+  height: 50px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  background-color: lightyellow;
+  border-color: black;
+  text-align: center;
+  padding: 10px 40px;
+}
