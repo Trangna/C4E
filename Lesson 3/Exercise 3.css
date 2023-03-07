@@ -53,10 +53,17 @@
   text-align: center;
 }
 
-span {
-  display: none;
+.tooltip {
+  visibility: hidden;
+  background-color: pink;
+  color: black;
+  width: 100px;
+  height: fit-content;
+  position: absolute;
+  font-size: 16px;
+  z-index: 1;
 }
 
-.button-1:hover + span {
-  background-color: aquamarine;
+.button-1:hover .tooltip {
+  visibility: visible;
 }

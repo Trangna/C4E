@@ -47,11 +47,10 @@ p {
   position: absolute;
   top: 80px;
   left: 310px;
-  /* display: none; */
+  visibility: hidden;
 }
-
-#hover-menu:hover + .span {
-  display: block;
+#hover:hover.sub-users {
+  visibility: visible;
 }
 
 .sub-menu {
