@@ -1,0 +1,68 @@
+/* .my-div {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: 1px black solid;
+} */
+
+/* .flexbox {
+  width: 700px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex; /*Anh huong den layout */
+/* flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+} */
+
+/* .flexbox-item {
+  /* width: 80px;
+  height: 80px; */
+/* border: 1px solid green;
+  padding: 10px;
+  box-sizing: border-box;
+} */
+
+/* .flexbox-item.my-item {
+  width: 100px;
+  height: 100px;
+} */
+
+.footer {
+  height: 200px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.footer-content-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: brown;
+  padding: 10px;
+  height: 60px;
+  align-items: strech;
+}
+
+.footer-btn-group {
+  display: flex;
+  background-color: green;
+  width: 60%;
+}
+
+.footer-contact {
+  background-color: chocolate;
+  width: 30%;
+}
+
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-about {
+  width: 80%;
+  text-align: center;
+}
