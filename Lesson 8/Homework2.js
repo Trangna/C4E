@@ -27,7 +27,8 @@ for (let i = 0; i < s.length; i++) {
 //Tao mang moi newS voi moi phan tu la 3 ky tu dau tien cua mang s//
 const newS = [];
 for (let i = 0; i < s.length; i++) {
-  newS.push(s[i].substring(0, 3));
+  //can use forEach
+  newS.push(s[i].substring(0, 3)); // can use slice()
 }
 console.log(newS);
 
