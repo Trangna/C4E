@@ -9,6 +9,13 @@ const storage = {
   ],
 };
 
+// Nen clone array de su dung
+const DeepParse = (value) => {
+  return json.parse(json.stringfy(value));
+};
+
+let arrClone = Json.parse(json.stringfy(storage));
+
 let input = Number(prompt("Nhap vao action"));
 // if ((input = 1)) editStorage();
 if ((input = 2)) addItem();
