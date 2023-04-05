@@ -37,8 +37,7 @@ $pass1.onchange = function () {
 //Print all value
 const $submit = document.getElementById("submit");
 $submit.onclick = function () {
-  // let x = document.getElementById("myForm");
-  let x = document.getElementsByClassName("input").value;
+  let x = document.getElementById("myForm");
   let txt = "";
   for (i = 0; i < x.length; i++) {
     txt = txt + x.elements[i].value + "<br>";
